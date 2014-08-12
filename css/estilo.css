@@ -1,0 +1,528 @@
+@font-face {
+    font-family: 'langdonregular';
+    src: url('../fonts/langdon_2-webfont.eot');
+    src: url('../fonts/langdon_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/langdon_2-webfont.woff') format('woff'),
+         url('../fonts/langdon_2-webfont.ttf') format('truetype'),
+         url('../fonts/langdon_2-webfont.svg#langdonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?7hosoo');
+    src:url('../fonts/icomoon.eot?#iefix7hosoo') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?7hosoo') format('woff'),
+        url('../fonts/icomoon.ttf?7hosoo') format('truetype'),
+        url('../fonts/icomoon.svg?7hosoo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.icon-home:before{
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 25px;
+
+    content: "\e601";
+
+
+   
+}
+.icon-pencil:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 25px;
+    content: "\e602";
+
+}
+.icon-location:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 25px;
+    content: "\e603";
+
+}
+.icon-bubble:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 25px;
+    content: "\e604";
+
+}
+.icon-menu:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 25px;
+    content: "\e605";
+
+}
+.icon-checkmark-circle:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 25px;
+    content: "\e606";
+
+
+}
+.icon-omega:before {
+    content: "\e600";
+}
+
+
+
+
+h3,h2{
+
+font-family: 'langdonregular';
+margin:0;
+padding:0;
+}
+
+h5 {
+	font-family: 'langdonregular';
+    font-size: 0.5em;
+    margin: 0 0;
+}
+
+
+body
+{
+	background: #fff;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+header
+{
+	position: relative;
+	background: #4d4d4d;
+	color: white;
+	overflow: hidden;
+	width: 100%;
+	height: 102px;
+	max-width: 1124px;
+	margin: 0 auto;
+	
+}
+
+.ca-menu{
+    padding:0;
+    margin:20px auto;
+    margin-top: 40px;
+    margin-left: 12%;
+    width: 1070px;
+}
+.ca-menu li{
+    width: 100px;
+    height: 53px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-right: 4px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.ca-menu li:last-child{
+    margin-right: 0px;
+}
+.ca-menu li a{
+    text-align:center;
+    width: 100%;
+    display: block;
+    color: #333;
+    position: relative;
+}
+
+.ca-menu li a .icon-home{
+    color: yellow;
+
+}
+
+
+.ca-menu li {
+    color: yellow;
+
+}
+
+
+
+.ca-content{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    top: 0;
+     padding-top: 35px;
+}
+.ca-main{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.ca-sub{
+    text-align:center;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+    opacity: 0.8;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.ca-menu li:hover{
+
+     border-bottom: 5px solid #e2e71f;
+}
+
+
+.ca-menu li:hover .icon-home {
+    color: yellow;
+  
+
+}
+
+.ca-menu li:hover .icon-bubble{
+    color: yellow;
+}
+
+.ca-menu li:hover .icon-menu{
+    color: yellow;
+
+   
+}
+
+.ca-menu li:hover .icon-location{
+    color: yellow;
+ 
+}
+
+
+
+.ca-menu li:hover .icon-checkmark-circle{
+    color: yellow;
+   
+   
+}
+
+
+.ca-menu li:hover .icon-pencil{
+    color: yellow;
+
+}
+header .search{
+
+ position: absolute;
+ font-family: 'langdonregular';
+ right: 160px;
+ top:50px;
+
+}
+
+.contenido{
+	background: yellow;
+	width: 100%;
+	max-width: 1124px;
+	margin: 0 auto;
+	height: 1093px;
+}
+
+.contenido .slider{
+	position: relative;
+	background: url(../img/slider.jpg)no-repeat;
+	background-size: 1124px 412px;
+	height: 412px;
+	border-bottom: 13px solid #e8ec4c;
+
+
+}
+
+.contenido .slider .leermas{
+	position: absolute;
+	
+	top: 300px;
+	left: 40%;
+
+
+}
+
+
+
+.contenido .carrusel{
+ background: black;
+ height: 343px;
+ padding-top: 40px;
+ 
+
+
+}
+
+.contenido .carrusel .slider_ca{
+ 
+ width: 867px;
+ margin:0 auto;
+
+ text-align: center;
+
+}
+
+.contenido .carrusel .ponente{
+
+
+	display: inline-block;
+	margin-right: 47px;
+
+
+
+}
+
+.contenido .carrusel .ponente:nth-child(3) {
+  margin-right: 0;
+}
+
+.redeyboletos{
+position: relative;
+z-index: 1;
+background:#231f20;
+height: 200px;
+text-align:center;
+
+
+
+}
+
+.redeyboletos .redesya{
+	
+	display: inline-block;
+	width: 260px;
+	margin-right: 20%;
+	text-align: left;
+	margin-top: 50px;
+
+}
+
+.redeyboletos .redesya h3{
+	font-family: 'langdonregular';
+	color: white;
+	margin-bottom: 10px;
+	margin-left: 20px;
+
+}
+
+.redeyboletos .redesya h3:before{
+    font-family: 'langdonregular';
+	border-top:8px solid transparent;
+	border-bottom:8px solid transparent;
+	border-left:8px solid #fff;
+	content:" ";
+	height:0;
+	margin-left:-12px;
+	position:absolute;
+	width:0
+}
+
+.redeyboletos .redes{
+
+	display: inline-block;
+	margin-right: 7px;
+
+
+}
+
+.redeyboletos .redes:nth-child(5){
+
+	
+	margin-right: 0px;
+
+
+}
+
+
+.redeyboletos .ventaboletos{
+	position: relative;
+  display: inline-block;
+  width: 220px;
+
+  
+
+}
+
+.redeyboletos .ventaboletos .boletos{
+	position: relative;
+  background: url(../img/boletos.png)no-repeat;
+  background-size: 220px 80px;
+  height: 80px;
+ 
+
+}
+
+.redeyboletos .ventaboletos .boletos h3{
+	font-family: 'langdonregular';
+	position: absolute;
+	color: white;
+	top:35px;
+	left: 20px;
+	font-size: 16px;
+	text-decoration: underline;
+
+}
+
+
+.redeyboletos .separacion{
+
+	position: absolute;
+	top:25px;
+	left:50%;
+
+
+}
+
+
+
+
+.pie{
+
+	background: #4d4d4d;
+	height: 85px;
+	text-align: center;
+}
+
+.pie .contacto{
+	display: inline-block;
+	width: 30%;
+	text-align: left;
+	color: white;
+	padding-top: 15px;
+}
+
+
+.pie .contacto h2{
+
+	font-size: 1.2em;
+    margin: 0 0;
+    margin-bottom: 2px;
+}
+
+.pie .contacto h2:before{
+
+    font-family: 'langdonregular';
+	background: url(../img/icono_contacto.png)no-repeat;
+	background-size: 18px 18px;
+	height: 18px;
+	width:18px;
+	content:" ";
+	
+	margin-left:-22px;
+	position:absolute;
+	
+
+}
+
+.pie .contacto p{
+
+	font-size: 1em;
+    margin: 0 0;
+     margin-bottom: 2px;
+}
+
+.pie .contacto span{
+
+	font-size: 1em;
+    margin: 0 0;
+}
+
+.pie .patrocinadores{
+	display: inline-block;
+	width: 40%;
+}
+
+
+
+/*Estilos Generales*/
+.button {
+    background:#7f8c8d;
+    color:black;
+    display:inline-block;
+    font-size:1em;
+    margin:20px;
+    padding:10px 0;
+    text-align:center;
+    width:150px;
+    text-decoration:none;
+    box-shadow:0px 3px 0px #373c3c;
+    border-radius: 5px;
+}
+ 
+.button span {
+    margin-right:10px;
+}
+ 
+/*Colores*/
+.button.blue {
+    background:#e8ec4c;
+    box-shadow:0px 3px 0px #aeb139;
+}
+ 
+
+/*Efectos, Hover*/
+.button:hover {
+   
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+header .search{
+
+ visibility: hidden;
+
+}
+  
+}
