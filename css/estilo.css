@@ -32,7 +32,7 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    font-size: 25px;
+    font-size: 22px;
 
     content: "\e601";
 
@@ -47,7 +47,7 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    font-size: 25px;
+    font-size: 22px;
     content: "\e602";
 
 }
@@ -59,7 +59,7 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    font-size: 25px;
+    font-size: 22px;
     content: "\e603";
 
 }
@@ -71,7 +71,7 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    font-size: 25px;
+    font-size: 22px;
     content: "\e604";
 
 }
@@ -83,7 +83,7 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    font-size: 25px;
+    font-size: 22px;
     content: "\e605";
 
 }
@@ -95,7 +95,7 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    font-size: 25px;
+    font-size: 22px;
     content: "\e606";
 
 
@@ -123,7 +123,7 @@ h5 {
 
 body
 {
-	background: #fff;
+	background: url(../img/patron_fondo.png) repeat;
 	font-family: Arial;
 	font-size: 16px;
 }
@@ -131,21 +131,44 @@ body
 header
 {
 	position: relative;
-	background: #4d4d4d;
+    background-color: rgba(93,93,93, 0.4);
 	color: white;
 	overflow: hidden;
 	width: 100%;
-	height: 102px;
-	max-width: 1124px;
-	margin: 0 auto;
+	height: 86px;
 	
+	
+	
+}
+
+header .cabecera{
+
+   position: relative;
+   background-color: rgba(93,93,93, 0.0); 
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 86px;
+    max-width: 1124px;
+    margin: 0 auto;
+
+
+}
+
+header  .cabecera .logo{
+    position: absolute;
+    top:17px;
+    left: 0;
+    width: 20%;
+    background-color: rgba(93,93,93, 0);
+
 }
 
 .ca-menu{
     padding:0;
     margin:20px auto;
-    margin-top: 40px;
-    margin-left: 12%;
+    margin-top: 5px;
+    margin-left: 25%;
     width: 1070px;
 }
 .ca-menu li{
@@ -168,7 +191,7 @@ header
     text-align:center;
     width: 100%;
     display: block;
-    color: #333;
+    color: #000;
     position: relative;
 }
 
@@ -256,14 +279,6 @@ header
     color: yellow;
 
 }
-header .search{
-
- position: absolute;
- font-family: 'langdonregular';
- right: 160px;
- top:50px;
-
-}
 
 .contenido{
 	background: yellow;
@@ -275,22 +290,44 @@ header .search{
 
 .contenido .slider{
 	position: relative;
-	background: url(../img/slider.jpg)no-repeat;
-	background-size: 1124px 412px;
-	height: 412px;
-	border-bottom: 13px solid #e8ec4c;
-
-
-}
-
-.contenido .slider .leermas{
-	position: absolute;
+	background: url(../img/slide.png)no-repeat;
+	background-size: 1124px 567px;
+	height: 567px;
 	
-	top: 300px;
-	left: 40%;
 
 
 }
+
+.contenido .slider .slider-text{
+	position: absolute;
+	background-color: rgba(0,0,0, 0.7);
+	left: 0;
+	bottom: 0;
+    width: 100%;
+    height: 135px;
+}
+
+.contenido .slider .slider-text .texto{
+    background-color: rgba(0,0,0, 0.2);
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 530px;
+    height: 90px;
+    border-left: 2px solid white;
+}
+
+.contenido .slider .slider-text .texto h2{
+  margin-left: 30px;
+ color: yellow;
+}
+
+.contenido .slider .slider-text .texto p{
+  margin-left: 30px;
+ color: white;
+}
+
+
+
 
 
 
