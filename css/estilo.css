@@ -281,11 +281,11 @@ header  .cabecera .logo{
 }
 
 .contenido{
-	background: yellow;
+	background: #000;
 	width: 100%;
 	max-width: 1124px;
 	margin: 0 auto;
-	height: 1093px;
+	height: 1090px;
 }
 
 .contenido .slider{
@@ -308,6 +308,7 @@ header  .cabecera .logo{
 }
 
 .contenido .slider .slider-text .texto{
+    position: relative;
     background-color: rgba(0,0,0, 0.2);
     margin-left: 30px;
     margin-top: 25px;
@@ -327,48 +328,49 @@ header  .cabecera .logo{
 }
 
 
+.contenido .slider .slider-text .texto .botonmas{
+    position: absolute;
+    top: 80%;
+    right: 10px;
+}
+
+
 
 
 
 
 .contenido .carrusel{
  background: black;
- height: 343px;
+ height: 365px;
  padding-top: 40px;
  
 
 
 }
 
-.contenido .carrusel .slider_ca{
+.contenido .carrusel .compartir{
+ margin-left: 5%;
  
- width: 867px;
- margin:0 auto;
-
- text-align: center;
-
-}
-
-.contenido .carrusel .ponente{
-
-
-	display: inline-block;
-	margin-right: 47px;
-
 
 
 }
 
-.contenido .carrusel .ponente:nth-child(3) {
-  margin-right: 0;
+.separador{
+    background: #000;
+border-top: 3px solid  #4d4d4d;
+width: 80%;
+height: 5px;
+margin: 0 auto;
+
 }
 
 .redeyboletos{
 position: relative;
 z-index: 1;
-background:#231f20;
-height: 200px;
+background:#000;
+height: 130px;
 text-align:center;
+
 
 
 
@@ -424,7 +426,7 @@ text-align:center;
 .redeyboletos .ventaboletos{
 	position: relative;
   display: inline-block;
-  width: 220px;
+  width: 321px;
 
   
 
@@ -433,8 +435,8 @@ text-align:center;
 .redeyboletos .ventaboletos .boletos{
 	position: relative;
   background: url(../img/boletos.png)no-repeat;
-  background-size: 220px 80px;
-  height: 80px;
+  background-size: 321px 111px;
+  height: 111px;
  
 
 }
