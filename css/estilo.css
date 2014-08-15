@@ -140,6 +140,8 @@ header .cabecera{
     max-width: 960px;
     margin: 0 auto;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    box-shadow: 1px 1px 10px black;
+    -webkit-box-shadow: 1px 1px 50px black; 
 
 
 }
