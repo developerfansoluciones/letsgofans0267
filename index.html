@@ -6,7 +6,7 @@
 	<title>Lets Go Fans</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 	
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -16,8 +16,14 @@
 	<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
 
 
-  
-  
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=445595855573989&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
    
 
 
@@ -128,7 +134,8 @@
 
 					<div class="share">
 
-						<img src="img/share.png">
+						
+           <a href="https://www.facebook.com/sharer/sharer.php?app_id=113869198637480&sdk=joey&u=http%3A%2F%2Fletsgofans.com%2Ftest%2F&display=popup&ref=plugin" target="_blank"  ><img src="img/share.png"></a>
 
 					</div>
 
@@ -403,9 +410,21 @@
 
 		 </div><!-- Fin de redesyboletos -->
 
-		 <div class="pie">
+     <footer>
 
-		 	
+      <h2>CREATIVIDAD EFECTIVA, PUBLICIDAD QUE TRACIENDE</h2>
+
+      <div class="contacto">
+
+        <img src="img/contacto.png" />
+        <p>mail@fansolucionescreativas.com.mx / Teléfono (443) 321 43 34 / Morelia, Michoacán, México</p>
+
+      </div>
+
+
+     </footer>
+
+		 <div class="pie">
 		 	<div class="patrocinadores">
 
 		 		<div class="patrocinador">
@@ -434,23 +453,8 @@
 
 		 </div><!-- Fin de Pie -->
 
-		 <footer>
-
-		 	<h2>CREATIVIDAD EFECTIVA, PUBLICIDAD QUE TRACIENDE</h2>
-
-		 	<div class="contacto">
-
-		 		<img src="img/contacto.png" />
-		 		<p>mail@fansolucionescreativas.com.mx / Teléfono (443) 321 43 34 / Morelia, Michoacán, México</p>
-
-		 		<h3>Todos los derechos reservados FAN SOLUCIONES CREATIVAS ® 2014</h3>
-
-		 	</div>
-
-
-		 </footer>
-
-
+		 
+     <div class="copy"><p>Todos los derechos reservados LET'S GO FANS ® 2014</p></div>
 
 	</div><!-- Fin de Contenido -->
 
@@ -464,10 +468,11 @@
       $("#owl-example").owlCarousel();
     });
 
-
     $("body").data("page", "frontpage");
 
     </script>
+
+    
   
 
     <script type="text/javascript">

@@ -547,7 +547,7 @@ text-align:center;
 footer{
 
 background:#000;
-height: 120px;
+height: 80px;
 text-align: center;
 
 }
@@ -580,6 +580,22 @@ color: white;
 
 }
 
+.copy{
+
+    background: black;
+    text-align: center;
+
+}
+
+.copy p{ 
+    font-family: 'Roboto', sans-serif;
+    font-variant: light 300;
+    font-size: 12px;
+    margin:10;
+    color: white;
+
+
+}
 
 
 /*Estilos Generales*/
@@ -611,6 +627,11 @@ color: white;
 /*Efectos, Hover*/
 .button:hover {
    
+}
+.fb-share-button{
+  background: url(../img/share.png)no-repeat;
+  background-size: 31px 31px;
+  height: 31px;
 }
 
 
