@@ -482,15 +482,15 @@ text-align:center;
     float: right;
     width: 321px;
     margin-right: 33px;
-    margin-top: 5px;
+    margin-top: 23px;
 
 }
 
 .redeyboletos .ventaboletos .boletos{
 	position: relative;
   background: url(../img/boletos.png)no-repeat;
-  background-size: 321px 111px;
-  height: 111px;
+  background-size: 251px 76px;
+  height: 76px;
  
 
 }
