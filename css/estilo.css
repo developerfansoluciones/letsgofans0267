@@ -297,7 +297,10 @@ color: black;
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
-	height: 1090px;
+	height: 1300px;
+
+    box-shadow: 1px 1px 10px black;
+    -webkit-box-shadow: 1px 1px 50px black; 
 }
 
 .contenido .slider{
