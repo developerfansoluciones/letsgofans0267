@@ -111,7 +111,7 @@ h5 {
 
 body
 {
-	background: url(../img/patron_fondo.png) repeat;
+	background: url(../img/fondo.jpg) repeat;
 	background-attachment: fixed;
 	font-size: 16px;
 }
@@ -560,6 +560,11 @@ footer .contacto img p{
     display: inline-block;
 margin: 0px;
 padding: 0px;
+}
+
+
+footer .contacto h3{
+ color: white;
 }
 
 
