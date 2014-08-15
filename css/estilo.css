@@ -95,12 +95,10 @@
 }
 
 
-
-
 h3,h2{
 
 font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size: 10px;
+font-size: 20px;
 margin:0;
 padding:0;
 }
@@ -111,11 +109,10 @@ h5 {
     margin: 0 0;
 }
 
-
 body
 {
 	background: url(../img/patron_fondo.png) repeat;
-	
+	background-attachment: fixed;
 	font-size: 16px;
 }
 
@@ -176,6 +173,11 @@ header .cabecera{
     -ms-transition: all 300ms linear;
     transition: all 300ms linear;
 
+     -webkit-transition: all 1s ease-in-out;    /* safari - Chrome*/
+            -moz-transition: all 1s ease-in-out;       /* Firefox */
+            -o-transition: all 1s ease-in-out;         /* Opera */
+            transition: all 1s ease-in-out;
+
  
 }
 .ca-menu li:last-child{
@@ -183,7 +185,7 @@ header .cabecera{
 }
 .ca-menu li a{
 
-    margin-top: 12px;
+    margin-top: 22px;
     text-align:center;
     width: 100%;
     display: block;
@@ -211,10 +213,10 @@ header .cabecera{
     width: 100%;
     height: 50%;
     top: 0;
-     padding-top: 35px;
+     padding-top: 25px;
 }
 .ca-main{
-    font-size: 20px;
+    font-size: 12px;
     color: #fff;
     opacity: 0.8;
     text-align: center;
@@ -236,44 +238,57 @@ header .cabecera{
     -ms-transition: all 200ms linear;
     transition: all 200ms linear;
 }
-.ca-menu li:hover{
+.ca-menu li:hover {
+background: #e2e71f;
+
+
+
+     -webkit-transform: rotate3d(0,1,0,-180deg);
+    -moz-transform: rotate3d(0,1,0,-180deg);
+    -o-transform: rotate3d(0,1,0,-180deg);
+    -ms-transform: rotate3d(0,1,0,-180deg);
+    transform: rotate3d(0,1,0,-180deg);
 
      
 }
 
+.ca-menu li:hover h2{
+color: black;
 
+     
+}
 .ca-menu li:hover .icon-home {
-    color: yellow;
+    color: black;
   
 
 }
 
 .ca-menu li:hover .icon-bubble{
-    color: yellow;
+    color: black;
 }
 
 .ca-menu li:hover .icon-menu{
-    color: yellow;
+  color: black;
 
    
 }
 
 .ca-menu li:hover .icon-location{
-    color: yellow;
+    color: black;
  
 }
 
 
 
 .ca-menu li:hover .icon-checkmark-circle{
-    color: yellow;
+  color: black;
    
    
 }
 
 
 .ca-menu li:hover .icon-pencil{
-    color: yellow;
+   color: black;
 
 }
 
@@ -314,13 +329,19 @@ header .cabecera{
     border-left: 2px solid white;
 }
 
+
+
+
 .contenido .slider .slider-text .texto h2{
-  margin-left: 30px;
- color: yellow;
+   font-family: 'Roboto', sans-serif;
+   font-size: 22px;
+    margin-left: 30px;
+    color: yellow;
 }
 
 .contenido .slider .slider-text .texto p{
   margin-left: 30px;
+  margin-top: 3px;
  color: white;
 }
 
@@ -400,12 +421,15 @@ text-align:center;
 }
 
 .redeyboletos .redesya{
-	
-	display: inline-block;
-	width: 260px;
-	margin-right: 20%;
+    float: left;
+    background: url(../img/fondo_redes.png)no-repeat;
+    background-size: 338px 74px;
+    height: 74px;
+	width: 338px;
+	margin-left: 91px;
 	text-align: left;
-	margin-top: 50px;
+	margin-top: 25px;
+    padding-left: 50px;
 
 }
 
@@ -414,6 +438,7 @@ text-align:center;
 	color: white;
 	margin-bottom: 10px;
 	margin-left: 20px;
+
 
 }
 
@@ -432,7 +457,8 @@ text-align:center;
 .redeyboletos .redes{
 
 	display: inline-block;
-	margin-right: 7px;
+	margin-right: 0px;
+    margin-top: 15px;
 
 
 }
@@ -448,10 +474,10 @@ text-align:center;
 
 .redeyboletos .ventaboletos{
 	position: relative;
-  display: inline-block;
-  width: 321px;
-
-  
+    float: right;
+    width: 321px;
+    margin-right: 33px;
+    margin-top: 5px;
 
 }
 
@@ -490,58 +516,58 @@ text-align:center;
 
 .pie{
 
-	background: #4d4d4d;
-	height: 85px;
+	background-color: rgba(93,93,93, 0.4);
+    color: white;
+	height: 70px;
 	text-align: center;
-}
-
-.pie .contacto{
-	display: inline-block;
-	width: 30%;
-	text-align: left;
-	color: white;
-	padding-top: 15px;
+   
 }
 
 
-.pie .contacto h2{
 
-	font-size: 1.2em;
-    margin: 0 0;
-    margin-bottom: 2px;
-}
-
-.pie .contacto h2:before{
-
-    font-family: 'langdonregular';
-	background: url(../img/icono_contacto.png)no-repeat;
-	background-size: 18px 18px;
-	height: 18px;
-	width:18px;
-	content:" ";
-	
-	margin-left:-22px;
-	position:absolute;
-	
-
-}
-
-.pie .contacto p{
-
-	font-size: 1em;
-    margin: 0 0;
-     margin-bottom: 2px;
-}
-
-.pie .contacto span{
-
-	font-size: 1em;
-    margin: 0 0;
-}
 
 .pie .patrocinadores{
-	display: inline-block;
-	width: 40%;
+
+ padding-top: 20px;
+   
+}
+
+.pie .patrocinadores .patrocinador{
+
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+footer{
+
+background:#000;
+height: 120px;
+text-align: center;
+
+}
+
+footer .contacto p{
+
+color: white;
+margin: 0px;
+padding: 0px;
+display: inline-block;
+
+}
+
+footer .contacto img p{
+    display: inline-block;
+margin: 0px;
+padding: 0px;
+}
+
+
+footer h2{
+
+padding-top: 5px;
+color: white;
+
 }
 
 
