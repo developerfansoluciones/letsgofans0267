@@ -852,3 +852,47 @@ header .search{
 
 }
 
+.carrusel .texto-programa
+{
+  display: inline-block;
+  width: 33%;
+
+}
+
+.carrusel .texto-programa p
+{
+  
+  color: white;
+
+}
+
+.carrusel .texto-programa2
+{
+  display: inline-block;
+  width: 33%;
+
+}
+
+.carrusel .texto-programa2 p
+{
+  color: white;
+}
+
+.carrusel .gif-programa
+{
+  display: inline-block;
+  width: 33%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
