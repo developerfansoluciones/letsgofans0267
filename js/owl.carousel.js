@@ -1461,8 +1461,8 @@ if (typeof Object.create !== "function") {
         singleItem : false,
         itemsScaleUp : false,
 
-        slideSpeed : 200,
-        paginationSpeed : 800,
+        slideSpeed : 800,
+        paginationSpeed : 1000,
         rewindSpeed : 1000,
 
         autoPlay : false,

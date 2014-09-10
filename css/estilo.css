@@ -11,9 +11,6 @@
     font-style: normal;
 }
 
-
-
-
 .icon-home:before{
     font-family: 'icomoon';
     speak: none;
@@ -25,8 +22,6 @@
     font-size: 22px;
 
     content: "\e601";
-
-
    
 }
 .icon-pencil:before {
@@ -126,7 +121,6 @@ header
 	height: 86px;
 	
 	
-	
 }
 
 header .cabecera{
@@ -151,6 +145,7 @@ header .cabecera{
     top:-40px;
     left: -35px;
     width: 20%;
+    z-index: 9999;
     background-color: rgba(93,93,93, 0);
 
 }
@@ -159,7 +154,7 @@ header .cabecera{
     padding:0;
     margin:0px auto;
     margin-top: 0px;
-    margin-left: 25%;
+    margin-left: 35%;
     width: 1070px;
 }
 .ca-menu li{
@@ -169,16 +164,12 @@ header .cabecera{
     position: relative;
     float: left;
     margin-right: 4px;
-    -webkit-transition: all 300ms linear;
-    -moz-transition: all 300ms linear;
-    -o-transition: all 300ms linear;
-    -ms-transition: all 300ms linear;
-    transition: all 300ms linear;
+  
 
-     -webkit-transition: all 1s ease-in-out;    /* safari - Chrome*/
-            -moz-transition: all 1s ease-in-out;       /* Firefox */
-            -o-transition: all 1s ease-in-out;         /* Opera */
-            transition: all 1s ease-in-out;
+     -webkit-transition: all 0.3s ease-in-out;    /* safari - Chrome*/
+     -moz-transition: all 0.3s ease-in-out;       /* Firefox */
+     -o-transition: all 0.3s ease-in-out;         /* Opera */
+     transition: all 0.3s ease-in-out;
 
  
 }
@@ -197,7 +188,7 @@ header .cabecera{
 }
 
 .ca-menu li a .icon-home{
-    color: yellow;
+   
 
 }
 
@@ -222,11 +213,7 @@ header .cabecera{
     color: #fff;
     opacity: 0.8;
     text-align: center;
-    -webkit-transition: all 200ms linear;
-    -moz-transition: all 200ms linear;
-    -o-transition: all 200ms linear;
-    -ms-transition: all 200ms linear;
-    transition: all 200ms linear;
+   
 }
 .ca-sub{
     text-align:center;
@@ -234,63 +221,63 @@ header .cabecera{
     color: #666;
     line-height: 40px;
     opacity: 0.8;
-    -webkit-transition: all 200ms linear;
-    -moz-transition: all 200ms linear;
-    -o-transition: all 200ms linear;
-    -ms-transition: all 200ms linear;
-    transition: all 200ms linear;
+   
 }
 .ca-menu li:hover {
-background: #e2e71f;
+ 
+  
+}
 
-
-
-     -webkit-transform: rotate3d(0,1,0,-180deg);
-    -moz-transform: rotate3d(0,1,0,-180deg);
-    -o-transform: rotate3d(0,1,0,-180deg);
-    -ms-transform: rotate3d(0,1,0,-180deg);
-    transform: rotate3d(0,1,0,-180deg);
-
+.ca-menu .activo .icon-home{
+color: #e2e71f;
      
 }
 
+.ca-menu .activo .ca-main{
+color: #e2e71f;
+     
+}
+
+
 .ca-menu li:hover h2{
-color: black;
+  color: #bdbdbd;
+
 
      
 }
 .ca-menu li:hover .icon-home {
-    color: black;
+  color: #bdbdbd;
+ 
   
 
 }
 
 .ca-menu li:hover .icon-bubble{
-    color: black;
+    color: #bdbdbd;
 }
 
 .ca-menu li:hover .icon-menu{
-  color: black;
+  color: #bdbdbd;
 
    
 }
 
 .ca-menu li:hover .icon-location{
-    color: black;
+   color: #bdbdbd;
  
 }
 
 
 
 .ca-menu li:hover .icon-checkmark-circle{
-  color: black;
+ color: #bdbdbd;
    
    
 }
 
 
 .ca-menu li:hover .icon-pencil{
-   color: black;
+  color: #bdbdbd;
 
 }
 
@@ -307,9 +294,8 @@ color: black;
 
 .contenido .slider{
 	position: relative;
-	background: url(../img/slide.png)no-repeat;
-	background-size: 1124px 567px;
-	height: 567px;
+
+	height: 500px;
 	
 
 
@@ -340,12 +326,12 @@ color: black;
 .contenido .slider .slider-text .texto h2{
    font-family: 'Roboto', sans-serif;
    font-size: 22px;
-    margin-left: 30px;
+    margin-left: 5px;
     color: yellow;
 }
 
 .contenido .slider .slider-text .texto p{
-  margin-left: 30px;
+  margin-left: 5px;
   margin-top: 3px;
  color: white;
 }
@@ -482,18 +468,26 @@ text-align:center;
     float: right;
     width: 321px;
     margin-right: 33px;
-    margin-top: 23px;
+    margin-top: 15px;
 
 }
 
 .redeyboletos .ventaboletos .boletos{
 	position: relative;
   background: url(../img/boletos.png)no-repeat;
-  background-size: 251px 76px;
-  height: 76px;
+  background-size: 265px 102px;
+  height: 102px;
  
 
 }
+
+
+.redeyboletos .ventaboletos .boletos img{
+ margin-right: 68px;
+ 
+
+}
+
 
 .redeyboletos .ventaboletos .boletos h3{
 	font-family: 'langdonregular';
@@ -515,6 +509,7 @@ text-align:center;
 
 
 }
+
 
 
 
@@ -634,6 +629,12 @@ color: white;
   height: 31px;
 }
 
+.full{
+width: 100%;
+height: 239px;
+
+
+}
 
 
 @media screen and (max-width: 1100px) {
@@ -645,3 +646,209 @@ header .search{
 }
   
 }
+
+/************************Lightbox*****************************/
+/* line 6, ../sass/lightbox.sass */
+#lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+  opacity: 0.85;
+  display: none;
+}
+
+/* line 15, ../sass/lightbox.sass */
+#lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-weight: normal;
+}
+/* line 24, ../sass/lightbox.sass */
+#lightbox img {
+  width: auto;
+  height: auto;
+}
+/* line 27, ../sass/lightbox.sass */
+#lightbox a img {
+  border: none;
+}
+
+/* line 30, ../sass/lightbox.sass */
+.lb-outerContainer {
+  position: relative;
+  background-color: white;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 39, ../sass/lightbox.sass */
+.lb-container {
+  padding: 10px;
+}
+
+/* line 42, ../sass/lightbox.sass */
+.lb-loader {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 51, ../sass/lightbox.sass */
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 59, ../sass/lightbox.sass */
+.lb-container > .nav {
+  left: 0;
+}
+
+/* line 62, ../sass/lightbox.sass */
+.lb-nav a {
+  outline: none;
+}
+
+/* line 65, ../sass/lightbox.sass */
+.lb-prev, .lb-next {
+  width: 49%;
+  height: 100%;
+  background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+/* line 72, ../sass/lightbox.sass */
+.lb-prev {
+  left: 0;
+  float: left;
+}
+
+/* line 76, ../sass/lightbox.sass */
+.lb-next {
+  right: 0;
+  float: right;
+}
+
+/* line 81, ../sass/lightbox.sass */
+.lb-prev:hover {
+  background: url(../images/prev.png) left 48% no-repeat;
+}
+
+/* line 85, ../sass/lightbox.sass */
+.lb-next:hover {
+  background: url(../images/next.png) right 48% no-repeat;
+}
+
+/* line 88, ../sass/lightbox.sass */
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -ms-border-bottom-left-radius: 4px;
+  -o-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -ms-border-bottom-right-radius: 4px;
+  -o-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 95, ../sass/lightbox.sass */
+.lb-data {
+  padding: 0 10px;
+  color: #bbbbbb;
+}
+/* line 98, ../sass/lightbox.sass */
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+/* line 103, ../sass/lightbox.sass */
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+/* line 107, ../sass/lightbox.sass */
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 11px;
+}
+/* line 112, ../sass/lightbox.sass */
+.lb-data .lb-close {
+  width: 35px;
+  float: right;
+  padding-bottom: 0.7em;
+  outline: none;
+}
+/* line 117, ../sass/lightbox.sass */
+.lb-data .lb-close:hover {
+  cursor: pointer;
+}
+/******************LIGHTBOX Video***********************/
+
+        .lightbox { left: -999em; position: absolute; }
+            .lightbox { left: -999em; position: absolute; }
+            .lightbox:target { bottom: 0; left: 0; right: 0; top: 0; position: absolute; }
+            .lightbox:target .close a { background: rgba(0, 0, 0, 0.75); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }
+            .close span { color: #FFFFFF; font-size: 2em; text-indent: 0; position: absolute; right: 0.5em; top: 0.5em; }
+            .close {text-indent: -999em;}
+            .lightbox:target div { background: #FFFFFF; position: absolute; left: 50%; top: 50%; z-index: 99; }
+            .w60p { margin-left: -30%; width: 60%; } .w300 { margin-left: -150px; width: 300px; } .w640 { margin-left: -320px; width: 640px; }
+            .h60 { height: 60px; margin-top: -30px; } .h400 { height: 400px; margin-top: -200px; } .h386 { height: 386px; margin-top: -193px; }
+            .scroll { overflow-y: scroll; padding: 0 1em; }
+            .boxfocus { bottom: 0; left: 0; right: 0; top: 0; position: absolute; }
+            .boxfocus div { background: #FFFFFF; position: absolute; left: 50%; top: 50%; z-index: 99; }
+            .boxfocus .close a { background-image: url('trans.png'); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }
+            
+            
+#recargado {
+    width:205px;
+    
+
+}
+
