@@ -11,6 +11,12 @@
     font-style: normal;
 }
 
+p
+{
+  margin: 0;
+  padding: 0;
+}
+
 .icon-home:before{
     font-family: 'icomoon';
     speak: none;
@@ -857,6 +863,7 @@ header .search{
   display: inline-block;
   width: 33%;
   padding-left: 35px;
+  vertical-align: top;
 
 }
 
@@ -865,6 +872,7 @@ header .search{
   
   color: white;
   padding-left: 25px;
+  font-family: 'Nixie One', cursive;
 
 }
 
@@ -880,6 +888,7 @@ header .search{
 {
   color: white;
   padding-left: 25px;
+  font-family: 'Nixie One', cursive;
 }
 
 .carrusel .gif-programa
@@ -887,6 +896,16 @@ header .search{
   display: inline-block;
   width: 33%;
 
+}
+
+.carrusel .texto-programa .texto-programa-am
+{
+  color: #dadc2d;
+}
+
+.carrusel .texto-programa2 .texto-programa-am2
+{
+  color: #dadc2d;
 }
 
 
