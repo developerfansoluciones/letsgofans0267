@@ -856,6 +856,7 @@ header .search{
 {
   display: inline-block;
   width: 33%;
+  padding-left: 35px;
 
 }
 
@@ -863,6 +864,7 @@ header .search{
 {
   
   color: white;
+  padding-left: 25px;
 
 }
 
@@ -870,12 +872,14 @@ header .search{
 {
   display: inline-block;
   width: 33%;
+  padding-left: 35px;
 
 }
 
 .carrusel .texto-programa2 p
 {
   color: white;
+  padding-left: 25px;
 }
 
 .carrusel .gif-programa
