@@ -903,6 +903,7 @@ header .search{
   display: inline-block;
   width: 33%;
   padding-left: 35px;
+  vertical-align: top;
 
 }
 
@@ -916,7 +917,7 @@ header .search{
 .carrusel .gif-programa
 {
   display: inline-block;
-  width: 33%;
+  width: 25%;
 
 }
 
