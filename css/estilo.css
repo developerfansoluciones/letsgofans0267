@@ -239,10 +239,32 @@ color: #e2e71f;
      
 }
 
-.ca-menu .activo .ca-main{
+.ca-menu .activo .ca-content .ca-main{
 color: #e2e71f;
      
 }
+
+.ca-menu .activo .icon-menu{
+color: #e2e71f;
+     
+}
+
+.ca-menu .activo .icon-location{
+color: #e2e71f;
+     
+}
+
+.ca-menu .activo .icon-checkmark-circle{
+ color: #e2e71f;
+
+}
+
+.ca-menu .activo .icon-pencil{
+ color: #e2e71f;
+
+}
+
+
 
 
 .ca-menu li:hover h2{
