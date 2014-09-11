@@ -200,6 +200,7 @@ height: 110px;
 .mfp-arrow-left {
   left: 0; 
   margin-left: 40%;
+  visibility: hidden;
 }
   .mfp-arrow-left:after, .mfp-arrow-left .mfp-a {
    }
@@ -213,7 +214,7 @@ height: 110px;
 
 .mfp-arrow-right {
   right: 0; 
-
+visibility: hidden;
 margin-right: 40%;}
   .mfp-arrow-right:after, .mfp-arrow-right .mfp-a {
  }
