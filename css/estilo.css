@@ -981,13 +981,13 @@ header .search{
 
 }
 
-.carrusel .texto-programa .texto-programa-am
+.carrusel .texto-programa .texto-programa-am 
 {
   color: #dadc2d;
 }
 
 
-.carrusel2.texto-programa .texto-programa-am
+.carrusel2  .texto-programa .texto-programa-am
 {
   color: #dadc2d;
 }
@@ -1319,6 +1319,32 @@ height: 1550px;
 margin-top: 100px;
 }
 
+
+.contenido .carrusel2 {
+
+height: 910px;
+
+}
+
+.carrusel2 .texto-programa {
+
+width: 90%;
+
+}
+
+
+.carrusel2 .texto-programa2 {
+
+width: 90%;
+
+}
+
+
+.carrusel2 .gif-programa {
+display: inline-block;
+width: 100%;
+text-align: right;
+}
 
 }
 
