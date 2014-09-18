@@ -1245,6 +1245,37 @@ margin-left: 30px;
 }
 
 
+@media all and (max-width: 800px){
+
+.contenido .carrusel2 {
+
+height: 700px;
+
+}
+
+.carrusel2 .texto-programa {
+
+width: 45%;
+
+}
+
+
+.carrusel2 .texto-programa2 {
+
+width: 45%;
+
+}
+
+
+.carrusel2 .gif-programa {
+display: inline-block;
+width: 100%;
+text-align: right;
+}
+
+}
+
+
 @media all and (max-width: 640px) {
 
 .contenido .slider .logo {
