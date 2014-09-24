@@ -18,6 +18,7 @@ p
 }
 
 
+
 .icon-home:before{
     font-family: 'icomoon';
     speak: none;
@@ -425,7 +426,17 @@ top:40px;
 right: 25px;
  
  
+}
 
+.leermas{
+position: absolute;
+bottom:2px;
+right: 0;
+
+}
+
+.leermas a img{
+width: 100%;
 
 }
 
@@ -1428,6 +1439,19 @@ width: 100%;
 text-align: right;
 }
 
+
+.leermas{
+
+left: 0;
+
+}
+
+
+.leermas a img{
+width: 25%;
+
+}
+
 }
 
 
@@ -1608,6 +1632,18 @@ padding: 21px 1px;
 
 }
 
+.leermas{
+
+left: 0;
+
+}
+
+
+.leermas a img{
+width: 25%;
+
+}
+
 
 }
 
@@ -1706,9 +1742,6 @@ padding: 21px 1px;
 
 }
 
-
-}
-
 .callbacks_container_mapa
 {
 
@@ -1716,5 +1749,21 @@ padding: 21px 1px;
   text-align: center;
 
 }
+
+.leermas{
+
+left: 0;
+
+}
+
+
+.leermas a img{
+width: 25%;
+
+}
+
+
+}
+
 
 
