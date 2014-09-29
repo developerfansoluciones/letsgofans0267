@@ -325,6 +325,18 @@ color: #e2e71f;
     -webkit-box-shadow: 1px 1px 50px black; 
 }
 
+.contenido_faqs
+{
+  background: #000;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 2100px;
+
+    box-shadow: 1px 1px 10px black;
+    -webkit-box-shadow: 1px 1px 50px black; 
+}
+
 .contenido .slider{
 	position: relative;
 	height: 500px;
@@ -451,17 +463,33 @@ margin: 0 auto;
 
 }
 
+.contenido_faqs .separador
+{
+    background: #000;
+border-top: 3px solid  #4d4d4d;
+width: 80%;
+height: 5px;
+margin: 0 auto;
+
+}
+
 .redeyboletos{
 position: relative;
 z-index: 1;
 background:#000;
 height: 130px;
 text-align:center;
-
-
-
-
 }
+
+.contenido_faqs .redeyboletos{
+position: relative;
+z-index: 1;
+background:#000;
+height: 130px;
+text-align:center;
+}
+
+
 
 .redeyboletos .redesya{
     float: left;
@@ -476,14 +504,33 @@ text-align:center;
 
 }
 
+.contenido_faqs .redeyboletos .redesya{
+    float: left;
+    background: url(../img/fondo_redes.png)no-repeat;
+    background-size: 338px 74px;
+    height: 74px;
+  width: 338px;
+  margin-left: 91px;
+  text-align: left;
+  margin-top: 25px;
+    padding-left: 50px;
+
+}
+
 .redeyboletos .redesya h3{
 	font-family: 'langdonregular';
 	color: white;
 	margin-bottom: 10px;
 	margin-left: 20px;
-
-
 }
+
+.contenido_faqs .redeyboletos .redesya h3{
+  font-family: 'langdonregular';
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
 
 .redeyboletos .redesya h3:before{
     font-family: 'langdonregular';
@@ -497,31 +544,60 @@ text-align:center;
 	width:0
 }
 
-.redeyboletos .redes{
+.contenido_faqs .redeyboletos .redesya h3:before
+{
+  font-family: 'langdonregular';
+  border-top:8px solid transparent;
+  border-bottom:8px solid transparent;
+  border-left:8px solid #fff;
+  content:" ";
+  height:0;
+  margin-left:-12px;
+  position:absolute;
+  width:0
+}
 
+.redeyboletos .redes
+{
 	display: inline-block;
 	margin-right: 0px;
     margin-top: 15px;
-
-
 }
 
-.redeyboletos .redes:nth-child(5){
-
-	
-	margin-right: 0px;
-
-
-}
-
-
-.redeyboletos .ventaboletos{
-	position: relative;
-    float: right;
-    width: 321px;
-    margin-right: 33px;
+.contenido_faqs .redeyboletos .redes
+{
+  display: inline-block;
+  margin-right: 0px;
     margin-top: 15px;
+}
 
+.redeyboletos .redes:nth-child(5)
+{
+  margin-right: 0px;
+}
+
+.contenido_faqs .redeyboletos .redes:nth-child(5)
+{
+  margin-right: 0px;
+}
+
+
+.redeyboletos .ventaboletos
+{
+	position: relative;
+  float: right;
+  width: 321px;
+  margin-right: 33px;
+  margin-top: 15px;
+}
+
+.contenido_faqs .redeyboletos .ventaboletos
+{
+  position: relative;
+  float: right;
+  width: 321px;
+  margin-right: 33px;
+  margin-top: 15px;
 }
 
 .redeyboletos .ventaboletos .boletos{
@@ -529,19 +605,30 @@ text-align:center;
   background: url(../img/boletos.png)no-repeat;
   background-size: 265px 102px;
   height: 102px;
- 
+}
 
+.contenido_faqs .redeyboletos .ventaboletos .boletos{
+  position: relative;
+  background: url(../img/boletos.png)no-repeat;
+  background-size: 265px 102px;
+  height: 102px;
 }
 
 
-.redeyboletos .ventaboletos .boletos img{
- margin-right: 68px;
- 
+.redeyboletos .ventaboletos .boletos img
+{
+  margin-right: 68px;
+}
 
+.contenido_faqs .redeyboletos .ventaboletos .boletos img
+{
+  margin-right: 68px;
 }
 
 
-.redeyboletos .ventaboletos .boletos h3{
+
+.redeyboletos .ventaboletos .boletos h3
+{
 	font-family: 'langdonregular';
 	position: absolute;
 	color: white;
@@ -549,47 +636,67 @@ text-align:center;
 	left: 20px;
 	font-size: 16px;
 	text-decoration: underline;
+}
 
+.contenido_faqs .redeyboletos .ventaboletos .boletos h3
+{
+  font-family: 'langdonregular';
+  position: absolute;
+  color: white;
+  top:35px;
+  left: 20px;
+  font-size: 16px;
+  text-decoration: underline;
 }
 
 
-.redeyboletos .separacion{
-
+.redeyboletos .separacion
+{
 	position: absolute;
 	top:25px;
 	left:50%;
-
-
 }
 
+.contenido_faqs .redeyboletos .separacion
+{
+  position: absolute;
+  top:25px;
+  left:50%;
+}
 
-
-
-
-.pie{
-
+.pie
+{
 	background-color: rgba(93,93,93, 0.4);
     color: white;
 	height: 70px;
-	text-align: center;
-   
+	text-align: center; 
 }
 
-
-
-
-.pie .patrocinadores{
-
- padding-top: 20px;
-   
+.pie .patrocinadores
+{
+ padding-top: 20px;  
 }
 
-.pie .patrocinadores .patrocinador{
-
-    display: inline-block;
-    margin-right: 20px;
+.pie .patrocinadores .patrocinador
+{
+  display: inline-block;
+  margin-right: 20px;
 }
 
+.contenido_faqs .pie
+{
+  background-color: rgba(93,93,93, 0.4);
+    color: white;
+  height: 70px;
+  text-align: center; 
+}
+
+.contenido_faqs .pie .patrocinadores
+{
+ padding-top: 20px;  
+}
+
+<<<<<<< HEAD
 .pie .patrocinadores .patrocinadortexto{
 
     display: inline-block;
@@ -599,61 +706,114 @@ text-align:center;
     margin-right: 20px;
 }
 
+=======
+.contenido_faqs .pie .patrocinadores .patrocinador
+{
+  display: inline-block;
+  margin-right: 20px;
+}
+>>>>>>> FETCH_HEAD
 
-footer{
 
+footer
+{
 background:#000;
 height: 80px;
 text-align: center;
-
 }
 
-footer .contacto p{
-
+footer .contacto p
+{
 color: white;
 margin: 0px;
 padding: 0px;
 display: inline-block;
-
 }
 
-footer .contacto img p{
-    display: inline-block;
-margin: 0px;
-padding: 0px;
+footer .contacto img p
+{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
 }
 
-
-footer .contacto h3{
+footer .contacto h3
+{
  color: white;
 }
 
 
-footer h2{
-
+footer h2
+{
 padding-top: 5px;
 color: white;
-
 }
 
-.copy{
-
-    background: black;
-    text-align: center;
-    padding-top: 20px;
-
+.copy
+{
+  background: black;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.copy p{ 
-    font-family: 'Roboto', sans-serif;
-    font-variant: light 300;
-    font-size: 12px;
-    margin:10;
-    color: white;
-
-
+.copy p
+{ 
+  font-family: 'Roboto', sans-serif;
+  font-variant: light 300;
+  font-size: 12px;
+  margin:10;
+  color: white;
 }
 
+.contenido_faqs footer
+{
+background:#000;
+height: 80px;
+text-align: center;
+}
+
+.contenido_faqs footer .contacto p
+{
+color: white;
+margin: 0px;
+padding: 0px;
+display: inline-block;
+}
+
+.contenido_faqs footer .contacto img p
+{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenido_faqs footer .contacto h3
+{
+ color: white;
+}
+
+
+.contenido_faqs footer h2
+{
+padding-top: 5px;
+color: white;
+}
+
+.contenido_faqs .copy
+{
+  background: black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contenido_faqs .copy p
+{ 
+  font-family: 'Roboto', sans-serif;
+  font-variant: light 300;
+  font-size: 12px;
+  margin:10;
+  color: white;
+}
 
 /*Estilos Generales*/
 .button {
@@ -1802,6 +1962,45 @@ width: 25%;
 
 
 }
+
+.contenido_faqs .carrusel3 .faqs_pregunta p
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.contenido_faqs .carrusel3 .faqs_respuesta p
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #848484;
+}
+
+.contenido_faqs .carrusel3
+{
+  position: relative;
+  background: black;
+  height: 1700px;
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+ 
+}
+
+.contenido_faqs .carrusel3 .img_faqs
+{
+  text-align: center;
+}
+
+.contenido_faqs .carrusel3 .img_faqs img
+{
+  width: 400px;
+}
+
+
 
 
 
